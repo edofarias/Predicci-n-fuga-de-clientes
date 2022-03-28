@@ -1,1 +1,3 @@
-# Predicci-n-fuga-de-clientes
+# Predicción Fuga de clientes
+# Para correr todas las librerías, instalar requirements.txt
+# Resumen ejecutivo: Se encuentra un data frame de 19 variables independientes, y 1 dependiente, por lo que se está frente a un problema de machine learning de aprendizaje supervisado. La variable dependiente es categórica, por lo que se enfrenta el desafío con modelos de clasificación: Tree regresion, KNN, logistic, Naive Bayes. El mejor resultado lo tiene Tree regresion con 88% en el dataset de test, con 3 variables que más influyen: Edad, Genero, nivel educacional. Para mejorar el modelo se propone capturar nuevas variables independientes, y seguir probando con nuevos modelos.
